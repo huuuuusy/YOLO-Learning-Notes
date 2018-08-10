@@ -134,8 +134,11 @@ I've mainly tested clblast_tuner_xdot, clblast_tuner_copy_fast and clblast_tuner
 ||clblast_tuner_xdot|clblast_tuner_copy_fast|clblast_tuner_xgemm|
 |:--:|:--:|:--:|:--:|
 |Command|./clblast_tuner_xdot|./clblast_tuner_copy_fast|./clblast_tuner_xgemm -m 256 -n 256 -k 256 -num_steps 4 -step 256|
-|Result|![](img/28.png) ![](img/29.png)|
-|Json||||
+|Result|![](img/28.png) ![](img/29.png)|![](img/30.png)|![](img/31.png) ![](img/32.png) ![](img/33.png) ![](img/34.png)|
+|Json|[clblast_xdot_1_32.json](https://github.com/huuuuusy/YOLO-Learning-Notes/blob/master/CLBlast-test/clblast_xdot_1_32.json), [clblast_xdot_2_32.json](https://github.com/huuuuusy/YOLO-Learning-Notes/blob/master/CLBlast-test/clblast_xdot_2_32.json)|[clblast_copy_32.json](https://github.com/huuuuusy/YOLO-Learning-Notes/blob/master/CLBlast-test/clblast_copy_32.json)|[clblast_xgemm_1_32.json](https://github.com/huuuuusy/YOLO-Learning-Notes/blob/master/CLBlast-test/clblast_xgemm_1_32.json), [clblast_xgemm_2_32.json](https://github.com/huuuuusy/YOLO-Learning-Notes/blob/master/CLBlast-test/clblast_xgemm_2_32.json), [clblast_xgemm_11_32.json](https://github.com/huuuuusy/YOLO-Learning-Notes/blob/master/CLBlast-test/clblast_xgemm_11_32.json), [clblast_xgemm_12_32.json](https://github.com/huuuuusy/YOLO-Learning-Notes/blob/master/CLBlast-test/clblast_xgemm_12_32.json)|
+
+Some more test results and discussions about GPU optimization in Adreno GPU is in [CLBlast issue 228: Sub-optimal performance on Qualcomm Adreno GPUs](https://github.com/CNugteren/CLBlast/issues/228).
+
 
 
 
