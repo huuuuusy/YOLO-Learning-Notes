@@ -1,0 +1,744 @@
+{
+  "kernel_family": "copy",
+  "precision": "32",
+  "best_kernel": "CopyMatrixFast",
+  "best_time": "0.42",
+  "best_parameters": "COPY_DIMX=32 COPY_DIMY=8 COPY_VW=1 COPY_WPT=4 PRECISION=32",
+  "arg_m": "1024",
+  "arg_n": "1024",
+  "arg_alpha": "2.00",
+  "clblast_device_type": "GPU",
+  "clblast_device_vendor": "QUALCOMM",
+  "clblast_device_architecture": "",
+  "clblast_device_name": "QUALCOMM Adreno(TM)",
+  "device": "QUALCOMM Adreno(TM)",
+  "platform_vendor": "QUALCOMM",
+  "platform_version": "OpenCL 2.0 QUALCOMM build: commit #d97c133 changeid #I6534cce057 Date: 03/19/18 Mon Local Branch:  Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.UM.6.3.R4.08.01.00.440.012",
+  "device_vendor": "QUALCOMM",
+  "device_type": "GPU",
+  "device_core_clock": "1",
+  "device_compute_units": "2",
+  "device_extra_info": "",
+  "results": [
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.700,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.610,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.634,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.752,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.768,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.538,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.613,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.718,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.852,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.618,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.562,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.717,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.776,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.547,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.560,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.746,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.710,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.617,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.683,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.753,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.840,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.571,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.678,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.755,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.702,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.647,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.669,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.782,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.980,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.663,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.695,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.769,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.848,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.736,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.609,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.769,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.960,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.791,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.585,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.814,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.999,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.800,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.634,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.794,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 1.399,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.865,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.754,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.808,
+      "parameters": {"COPY_DIMX": 8,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.588,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.609,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.588,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.660,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.588,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.616,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.656,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.674,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.611,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.607,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.635,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.675,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.700,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.552,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.568,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.655,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.676,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.604,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.659,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.756,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.794,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.549,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.620,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.744,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.687,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.632,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.580,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.652,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.974,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.708,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.608,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.860,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 1.001,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.708,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.668,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.698,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.805,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.753,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.660,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.671,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.919,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.812,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.633,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.695,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 1.072,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 1.081,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.805,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.751,
+      "parameters": {"COPY_DIMX": 16,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.515,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.545,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.650,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.632,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.587,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.599,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.654,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.521,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.417,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.603,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.628,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.620,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.693,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 1,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.571,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 2,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.635,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 4,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.645,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 8,"COPY_VW": 8,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.665,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.593,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.644,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.638,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.787,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.599,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.651,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.620,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.672,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.551,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.575,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.540,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.939,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 1,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.602,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 2,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.703,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 4,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.662,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 16,"COPY_VW": 8,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.779,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.592,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.601,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.547,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 1,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.885,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.752,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.587,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.581,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 2,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 1.004,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.804,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.680,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.573,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 4,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 1.027,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 1,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.958,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 2,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.853,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 4,"COPY_WPT": 8,"PRECISION": 32}
+    },
+    {
+      "kernel": "CopyMatrixFast",
+      "time": 0.616,
+      "parameters": {"COPY_DIMX": 32,"COPY_DIMY": 32,"COPY_VW": 8,"COPY_WPT": 8,"PRECISION": 32}
+    }
+  ]
+}

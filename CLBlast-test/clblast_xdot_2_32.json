@@ -1,0 +1,52 @@
+{
+  "kernel_family": "xdot_2",
+  "precision": "32",
+  "best_kernel": "XdotEpilogue",
+  "best_time": "0.26",
+  "best_parameters": "PRECISION=32 WGS2=1024",
+  "arg_n": "2097152",
+  "clblast_device_type": "GPU",
+  "clblast_device_vendor": "QUALCOMM",
+  "clblast_device_architecture": "",
+  "clblast_device_name": "QUALCOMM Adreno(TM)",
+  "device": "QUALCOMM Adreno(TM)",
+  "platform_vendor": "QUALCOMM",
+  "platform_version": "OpenCL 2.0 QUALCOMM build: commit #d97c133 changeid #I6534cce057 Date: 03/19/18 Mon Local Branch:  Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.UM.6.3.R4.08.01.00.440.012",
+  "device_vendor": "QUALCOMM",
+  "device_type": "GPU",
+  "device_core_clock": "1",
+  "device_compute_units": "2",
+  "device_extra_info": "",
+  "results": [
+    {
+      "kernel": "XdotEpilogue",
+      "time": 0.265,
+      "parameters": {"PRECISION": 32,"WGS2": 32}
+    },
+    {
+      "kernel": "XdotEpilogue",
+      "time": 0.263,
+      "parameters": {"PRECISION": 32,"WGS2": 64}
+    },
+    {
+      "kernel": "XdotEpilogue",
+      "time": 0.264,
+      "parameters": {"PRECISION": 32,"WGS2": 128}
+    },
+    {
+      "kernel": "XdotEpilogue",
+      "time": 0.260,
+      "parameters": {"PRECISION": 32,"WGS2": 256}
+    },
+    {
+      "kernel": "XdotEpilogue",
+      "time": 0.264,
+      "parameters": {"PRECISION": 32,"WGS2": 512}
+    },
+    {
+      "kernel": "XdotEpilogue",
+      "time": 0.257,
+      "parameters": {"PRECISION": 32,"WGS2": 1024}
+    }
+  ]
+}
