@@ -103,3 +103,5 @@ Add -DBUILD_SHARED_LIBS=1 in command to build the dynamic library:
 The generate static libraries are as following:
 
 ![](img/38.png)
+
+** The generated OpenCV dynamic libraries are uploaded in [OpenCV-Dynamic-Library](https://github.com/huuuuusy/YOLO-Learning-Notes/tree/master/OpenCV-Dynamic-Library) folder.**

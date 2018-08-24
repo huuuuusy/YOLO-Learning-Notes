@@ -7,3 +7,5 @@ The [Original-YOLO.md](https://github.com/huuuuusy/YOLO-Learning-Notes/blob/mast
 The [YOLO-OpenCL.md](https://github.com/huuuuusy/YOLO-Learning-Notes/blob/master/YOLO-OpenCL.md) includes how to use YOLO based on OpenCL to accomplish car detection, and compare the processing speed (FPS) with the original YOLO network.
 
 The [clblast-cross-compile-adreno630.md](https://github.com/huuuuusy/YOLO-Learning-Notes/blob/master/clblast-cross-compile-adreno630.md) includes how to accomplish cross compiling of CLBlast in Adreno 630.
+
+The [cross-compile-opencv.md](https://github.com/huuuuusy/YOLO-Learning-Notes/blob/master/cross-compile-opencv.md) includes how to use cross compiling to generate opencv android library based on the source code.
